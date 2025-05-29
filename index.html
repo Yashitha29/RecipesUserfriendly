@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Master</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        /* body { background-color: #f0f0f0; font-family: 'Arial', sans-serif; } */
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+         .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1030; /* Make sure it stays on top */
+}
+
+        .navbar {
+            background: rgba(0, 0, 0, 0.9) !important;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 10px #0ff;
+        }
+
+        .navbar-brand {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #fd219e !important;
+            text-shadow: 0 0 10px #b829f5, 0 0 20px #00ffd5, 0 0 30px #ff1493;
+            transition: text-shadow 0.3s ease, color 0.3s ease;
+            padding: 25px;
+        }
+
+        .navbar-brand:hover {
+            color: #ffdd44 !important;
+            text-shadow: 0 0 15px #ffdd44, 0 0 25px #ff4500, 0 0 35px #ff1493;
+        }
+
+        .nav-link {
+            color: #0ff !important;
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #ff0 !important;
+            text-shadow: 0 0 10px #ff0;
+        }
+
+        .dropdown-menu {
+            background: rgba(0, 0, 0, 0.9);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .dropdown-item {
+            color: #0ff !important;
+        }
+
+        .dropdown-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #ff0 !important;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .home-section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .home-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px #ff00ff;
+        }
+
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 0 15px #0ff;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #ff4500;
+            color: white;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 25px #ff0;
+        }
+
+        .feedback-form {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #0ff;
+            color: white;
+            max-width: 500px;
+            margin: 30px auto;
+        }
+
+        .feedback-form input,
+        .feedback-form textarea {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid #0ff;
+            color: white;
+        }
+
+        .feedback-form input::placeholder,
+        .feedback-form textarea::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .feedback-form button {
+            background: #0ff;
+            color: black;
+            border: none;
+            padding: 0.75rem;
+            width: 100%;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .feedback-form button:hover {
+            background: #ff0;
+            color: black;
+        }
+
+        .testimonial-section {
+            background: linear-gradient(135deg, #0a0a2a, #1a1a3e);
+            padding: 50px 20px;
+            text-align: center;
+            box-shadow: 0 0 20px #ff00ff;
+            border-radius: 10px;
+        }
+
+        .testimonial-carousel .carousel-item {
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #ffff00;
+            text-shadow: 0 0 10px #ffff00, 0 0 20px #ff4500;
+        }
+
+        .footer {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            padding: 20px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 0 15px #0ff;
+        }
+
+        .footer a {
+            color: #0ff !important;
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #ff0 !important;
+            text-shadow: 0 0 10px #ff0;
+        }
+
+        #suggestions {
+            background: linear-gradient(135deg, #0a0a2a, #1a1a3e);
+            padding: 50px 20px;
+            text-align: center;
+            box-shadow: 0 0 20px #ff00ff;
+            border-radius: 10px;
+        }
+
+        .neon-card {
+            box-shadow: 0 0 15px #0ff;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #ff4500;
+            color: white;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .neon-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 25px #ff0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand " href="#" onclick="loadHome()">Yashitha Recipes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="loadRecipes()">Recipes</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            Suggestions & Tips
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#recipeSuggestions">Recipe Suggestions</a></li>
+                                    <li><a class="dropdown-item" href="#cookingTips">Cooking Tips</a></li>
+                                    <li><a class="dropdown-item" href="#culinaryTerminology">Culinary Terminology</a></li>
+                        </ul>
+                    </li>
+
+                  
+                    <li class="nav-item"><a class="nav-link" href="#feedback">Feedback</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                </ul>
+                <div class="input-group ms-3">
+                    <input type="text" id="searchInput" class="form-control" placeholder="Search recipes..."
+                        onkeyup="filterRecipes()">
+                    <button class="btn btn-outline-primary" type="button" onclick="filterRecipes()">Search</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Home Section -->
+    <div id="home" class="container text-center mt-5">
+        <img src="image.png" style="height: 400px; width: 550px;" alt="Delicious Recipes">
+        <br> </br>
+        <h1 class="text-center" style="color: #0ff; text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;">Welcome to the Recipe
+            World!</h1>
+        <p class="text-center" style="color: #fff; font-size: 1.2em;">Discover delicious recipes, cooking tips, and
+            more!</p>
+        <button class="btn btn-primary" onclick="loadRecipes()">View Recipes</button>
+        <br> </br>
+        <br> </br>
+    </div>
+
+    <!-- Recipe Grid Section -->
+    <main id="recipes" class="container mt-4 hidden">
+        <h2 class="text-center">Our Delicious Recipes</h2>
+        <div class="row" id="recipeGrid"></div>
+    </main>
+
+    <!-- Recipe Details Section -->
+    <main id="recipeDetailsPage" class="container mt-4 hidden">
+        <div id="recipeDetails"></div>
+        <div class="mt-3">
+            <button class="btn btn-secondary" onclick="loadRecipes()">Back to Recipes</button>
+        </div>
+    </main>
+
+   <!-- About Yashitha Recipes Section -->
+<section id="about" class="container mt-5" style="padding: 50px 20px; background: linear-gradient(135deg, #1a1a2e, #16213e); border-radius: 10px; box-shadow: 0 0 20px #ff00ff;">
+    <h2 class="text-center" style="color: #ff0; text-shadow: 0 0 15px #ff0, 0 0 25px #ff4500; font-size: 2.5em;">
+        🚀 About Yashitha Recipes
+    </h2>
+    <p class="text-center" style="color: #fff; font-size: 1.3em;">Your ultimate destination for discovering delicious recipes with a modern touch.</p>
+
+    <div class="row mt-4">
+        <!-- Left Image Section -->
+        <div class="col-md-6 text-center">
+            <img src="./cooking kit.webp" class="img-fluid rounded" alt="Cooking"
+                style="box-shadow: 0 0 15px #ff0, 0 0 25px #ff4500; height: 445px; width: 510px; ">
+        </div>
+
+        <!-- Right Content Section -->
+        <div class="col-md-6">
+            <div class="card" style="transition: transform 0.3s ease, box-shadow 0.3s ease; background: #111; color: white; border: 1px solid #ff4500; box-shadow: 0 0 15px #ff4500;">
+                <div class="card-body">
+                    <h4 class="card-title" style="color: #ff0; text-shadow: 0 0 5px #ff0;">🌟 Our Mission</h4>
+                    <p class="card-text">Yashitha Recipes is dedicated to bringing you the <b>best cooking experience</b> with handpicked recipes, expert tips, and interactive features.</p>
+
+                    <h4 class="card-title" style="color: #ff69b4; text-shadow: 0 0 5px #ff69b4;">🔥 Why Choose Us?</h4>
+                    <ul style="color: #ddd;">
+                        <li>📌 <b>Thousands of curated recipes</b> from around the world.</li>
+                        <li>🎯 <b>Personalized suggestions</b> based on your taste.</li>
+                        <li>💡 <b>Expert cooking tips</b> to enhance your skills.</li>
+                        <li>💬 <b>Community-driven feedback & ratings.</b></li>
+                        <li>⚡ <b>Quick & easy search with filters.</b></li>
+                    </ul>
+
+                    <h4 class="card-title" style="color: #0ff; text-shadow: 0 0 5px #0ff;">🌍 Join Our Foodie Community!</h4>
+                    <p class="card-text">Follow us for updates, new recipes, and cooking inspiration.</p>
+                    
+                    <div class="text-center mt-3">
+                        <a href="https://linkedin.com/in/kasumurthi-yashitha" target="_blank" class="btn btn-outline-light mx-2" 
+                           style="box-shadow: 0 0 10px #0ff; transition: all 0.3s ease;">🔗 LinkedIn</a>
+                           <a href="mailto:kasumurthiyashitha818@gmail.com" class="btn btn-outline-light mx-2"
+                           style="box-shadow: 0 0 10px #ff0; transition: all 0.3s ease;">✉️ Email</a>
+                        <a href="https://www.instagram.com/yashitha_111?igsh=MTV3aGR0dHpqa2h1aw==" target="_blank" class="btn btn-outline-light mx-2" 
+                           style="box-shadow: 0 0 10px #ff69b4; transition: all 0.3s ease;">📸 Instagram</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</section>
+
+
+    
+    <!-- Testimonials Section -->
+    <div id="culinaryTerminology" class="container mt-5">
+    <section class="testimonial-section container mt-5">
+        <h2 class="text-center" style="color: #0ff; text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;">What Our Users Say</h2>
+        <div id="testimonialCarousel" class="carousel slide testimonial-carousel" data-bs-ride="carousel">
+            <div class="carousel-inner" id="testimonialContainer"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+  
+</div>
+
+    <!-- Cooking Tips Section -->
+    <div id="cookingTips" class="container mt-5">
+        <h2 class="text-center" style="color: #0ff; text-shadow: 0 0 10px #0ff, 0 0 20px #0ff; font-size: 2.5em;">🍳 Cooking Tips</h2>
+         <br></br>
+        <p class="text-center" style="color: #fff; font-size: 2.2em;">Enhance your cooking skills with these expert
+            tips!</p>
+            <br></br>
+
+        <!-- Cooking Tips List -->
+        <div class="row" id="cookingTipsList"></div>
+
+        <!-- Load More Button -->
+        <div class="text-center mt-4">
+            <button class="btn" onclick="loadMoreTips()"
+                style="background: #222; color: #0ff; border: 1px solid #0ff; box-shadow: 0 0 10px #0ff, 0 0 20px #0ff; padding: 10px 20px; font-size: 1.1em; transition: all 0.3s ease;">
+                More Tips</button>
+        </div>
+    </div>
+
+
+    <script>
+        // Sample testimonials data
+        const testimonials = [
+            { name: "Sarah Lee", review: "Cooking made easy! These recipes are a lifesaver!" },
+            { name: "Mark Johnson", review: "A great collection for food lovers. Highly recommended!" },
+            { name: "Emily Carter", review: "Each dish is better than the last. Love the variety!" },
+            { name: "Raj Patel", review: "Authentic flavors with easy-to-follow steps. Amazing!" },
+            { name: "Laura Smith", review: "I learned so many new recipes, my family loves them!" }
+        ];
+
+        // Load dynamic testimonials
+        function loadTestimonials() {
+            const container = document.getElementById("testimonialContainer");
+            container.innerHTML = ""; // Clear previous content
+
+            // Shuffle and show 3 random testimonials
+            let shuffled = testimonials.sort(() => 0.5 - Math.random()).slice(0, 3);
+            shuffled.forEach((testimonial, index) => {
+                let card = `
+                    <div class="carousel-item ${index === 0 ? 'active' : ''}">
+                        <p class="lead" style="color: #fff;">"${testimonial.review}"</p>
+                        <h5 style="color: #0ff; text-shadow: 0 0 5px #0ff;">- ${testimonial.name}</h5>
+                    </div>
+                `;
+                container.innerHTML += card;
+            });
+        }
+
+        // Sample cooking tips data
+        const cookingTips = [
+            "Always preheat your pan before adding ingredients.",
+            "Use fresh ingredients for better flavor and nutrition.",
+            "Season properly! Salt, pepper, and herbs enhance any dish.",
+            "Let your meat rest before cutting to retain juices.",
+            "Use a thermometer to ensure perfect meat doneness.",
+            "Don't overcrowd your pan—it lowers cooking temperature.",
+            "Taste as you go and adjust seasoning accordingly.",
+            "Use a sharp knife—it makes cutting easier and safer.",
+            "Always read the full recipe before starting to cook.",
+            "Clean as you go to keep your workspace organized.",
+            "Invest in a good cutting board to protect your knives.",
+            "Deglaze your pan with wine or broth for extra flavor.",
+            "Use parchment paper for easy baking and cleanup.",
+            "Roast vegetables at high heat for better caramelization.",
+            "Soak onions in cold water to reduce sharpness before serving raw.",
+            "Balance flavors—sweet, sour, salty, and umami—for the best taste.",
+            "Never press down on meat while cooking—it releases juices.",
+            "Add garlic last when sautéing to prevent burning.",
+            "Marinate proteins for at least 30 minutes to enhance flavor.",
+            "Rest your dough before rolling for better texture.",
+            "Always let cakes and pastries cool before frosting.",
+            "Use cast iron for better heat retention and searing.",
+            "When in doubt, butter makes everything better!"
+        ];
+
+
+        // Load more cooking tips dynamically
+        function loadMoreTips() {
+            const tipsContainer = document.getElementById("cookingTipsList");
+
+            // Load 3 more random tips
+            let newTips = cookingTips.sort(() => 0.5 - Math.random()).slice(0.5, 3);
+            
+            newTips.forEach(tip => {
+                let card = `
+                    <div class="col-md-4 mb-4">
+                        <div class="card" style="background: #222; color: #fff; border: 1px solid #0ff; box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: #0ff; text-shadow: 0 0 5px #0ff;">Tip</h5>
+                                <p class="card-text" style="padding=70px">${tip}</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                tipsContainer.innerHTML += card;
+            });
+        }
+        // Initialize testimonials on page load
+        document.addEventListener("DOMContentLoaded", () => {
+            loadTestimonials();
+            loadMoreTips(); // Load initial tips
+        });
+    </script>
+
+    <!-- Recipe Suggestions Section -->
+    <div id="recipeSuggestions" class="container mt-5 hidden">
+        <h2 class="text-center" style="color: #0ff; text-shadow: 0 0 10px #0ff, 0 0 20px #ff4500;"> Recipe Suggestions
+        </h2>
+        <p class="text-center" style="color: white; font-size: 1.2em;">Here are some handpicked recipe ideas just for
+            you!</p>
+
+        <!-- Featured Recipe Suggestions -->
+        <div class="row mt-4" id="recipeSuggestionsList">
+            <div class="col-md-4 mb-4">
+                <div class="card"
+                    style="background: #111; color: #fff; border: 1px solid #ee21ee; box-shadow: 0 0 15px #0ff;">
+                    <img src="https://source.unsplash.com/400x300/?pasta,dish" class="card-img-top" alt="Pasta Dish"
+                        loading="lazy">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #ff0; text-shadow: 0 0 5px #0ff;">Creamy Garlic Pasta</h5>
+                        <p class="card-text">A rich and creamy pasta dish that's easy to make!</p>
+                        <p class="card-text"><small class="text-muted">⏱️ 30 mins | ⭐ Difficulty: Easy</small></p>
+                        <button class="btn" style="background: #0ff; color: black; box-shadow: 0 0 10px #0ff;"
+                            onclick="loadRecipeDetails(1)">View Recipe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card"
+                    style="background: #111; color: #fff; border: 1px solid #ff1493; box-shadow: 0 0 15px #ff1493;">
+                    <img src="https://source.unsplash.com/400x300/?salad,healthy" class="card-img-top" alt="Salad"
+                        loading="lazy">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #ff69b4; text-shadow: 0 0 5px #ff69b4;">Fresh Avocado Salad
+                        </h5>
+                        <p class="card-text">A refreshing salad with avocado, lime, and greens!</p>
+                        <p class="card-text"><small class="text-muted">⏱️ 15 mins | ⭐ Difficulty: Easy</small></p>
+                        <button class="btn" style="background: #ff69b4; color: black; box-shadow: 0 0 10px #ff69b4;"
+                            onclick="loadRecipeDetails(2)">View Recipe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card"
+                    style="background: #111; color: #fff; border: 1px solid #00ffd5; box-shadow: 0 0 15px #00ffd5;">
+                    <img src="https://source.unsplash.com/400x300/?burger,food" class="card-img-top" alt="Burger"
+                        loading="lazy">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #0ff; text-shadow: 0 0 5px #0ff;">Juicy Cheeseburger</h5>
+                        <p class="card-text">A mouth-watering burger with a special sauce!</p>
+                        <p class="card-text"><small class="text-muted">⏱️ 25 mins | ⭐ Difficulty: Medium</small></p>
+                        <button class="btn" style="background: #0ff; color: black; box-shadow: 0 0 10px #0ff;"
+                            onclick="loadRecipeDetails(3)">View Recipe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+                 
+        <!-- Load More Button -->
+        <div class="text-center mt-4">
+            <button class="btn" onclick="loadMoreSuggestions()"
+                style="background: #222; color: #ff0; border: 1px solid #ff0; box-shadow: 0 0 10px #ff0, 0 0 20px #ff0; padding: 10px 20px; font-size: 1.1em;">🔄
+                Load More Suggestions</button>
+        </div>
+    </div>
+
+    <script>// Function to load recipe suggestions dynamically
+        function loadRecipeSuggestions() {
+            fetch('item.json')
+                .then(response => response.json())
+                .then(data => {
+                    const suggestions = data.recipes.slice(0, 3); // Load the first 3 recipes as suggestions
+                    const recipeSuggestionsList = document.getElementById('recipeSuggestionsList');
+                    recipeSuggestionsList.innerHTML = ''; // Clear existing content
+
+                    suggestions.forEach(recipe => {
+                        const suggestionCard = document.createElement('div');
+                        suggestionCard.className = 'col-md-4 mb-4';
+                        suggestionCard.innerHTML = `
+                        <div class="card" style="background: #111; color: #fff; border: 1px solid #ff4500; box-shadow: 0 0 15px #ff4500;">
+                            <img src="${recipe.image}" class="card-img-top" alt="${recipe.name}" loading="lazy" width="300px" height="300px" >
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: #ff0; text-shadow: 0 0 5px #ff0;">${recipe.name}</h5>
+                                <p class="card-text">${recipe.description || 'A delicious recipe!'}</p>
+                                <p class="card-text"><small class="text-muted">⏱️ ${recipe.time} | ⭐ Difficulty: ${recipe.difficulty}</small></p>
+                                <button class="btn" style="background: #ff0; color: black; box-shadow: 0 0 10px #ff0;" onclick="loadRecipeDetails(${recipe.id})">View Recipe</button>
+                            </div>
+                        </div>
+                    `;
+                        recipeSuggestionsList.appendChild(suggestionCard);
+                    });
+
+                    // Show the suggestions section
+                    document.getElementById('recipeSuggestions').classList.remove('hidden');
+                })
+                .catch(error => console.error("Error loading recipe suggestions:", error));
+        }
+
+        // Function to load more suggestions
+        function loadMoreSuggestions() {
+            fetch('item.json')
+                .then(response => response.json())
+                .then(data => {
+                    const recipeSuggestionsList = document.getElementById('recipeSuggestionsList');
+                    const currentCount = recipeSuggestionsList.children.length;
+                    const nextSuggestions = data.recipes.slice(currentCount, currentCount + 3); // Load the next 3 recipes
+
+                    nextSuggestions.forEach(recipe => {
+                        const suggestionCard = document.createElement('div');
+                        suggestionCard.className = 'col-md-4 mb-4';
+                        suggestionCard.innerHTML = `
+                        <div class="card" style="background: #111; color: #fff; border: 1px solid #ff4500; box-shadow: 0 0 15px #ff4500;">
+                            <img src="${recipe.image}" class="card-img-top" alt="${recipe.name}" loading="lazy">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: #ff0; text-shadow: 0 0 5px #ff0;">${recipe.name}</h5>
+                                <p class="card-text">${recipe.description || 'A delicious recipe!'}</p>
+                                <p class="card-text"><small class="text-muted">⏱️ ${recipe.time} | ⭐ Difficulty: ${recipe.difficulty}</small></p>
+                                <button class="btn" style="background: #ff0; color: black; box-shadow: 0 0 10px #ff0;" onclick="loadRecipeDetails(${recipe.id})">View Recipe</button>
+                            </div>
+                        </div>
+                    `;
+                        recipeSuggestionsList.appendChild(suggestionCard);
+                    });
+
+                    // Hide the "Load More" button if no more recipes are available
+                    if (recipeSuggestionsList.children.length >= data.recipes.length) {
+                        document.querySelector('#recipeSuggestions .text-center').classList.add('hidden');
+                    }
+                })
+                .catch(error => console.error("Error loading more suggestions:", error));
+        }
+
+        // Call the function to load suggestions when the page loads
+        window.addEventListener('load', () => {
+            loadRecipeSuggestions();
+        });</script>
+
+      <!-- Feedback Section -->
+      <div id="feedback" class="feedback-form">
+        <h3>Feedback & Ratings</h3>
+        <form id="feedbackForm">
+            <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Your Feedback</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Enter your feedback" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Feedback</button>
+        </form>
+    </div>
+
+    <!-- JavaScript for Form Submission and Smooth Scrolling -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        // Initialize EmailJS
+        (function() {
+            emailjs.init("your-user-id"); // Replace with your EmailJS user ID
+        })();
+
+        // Handle Form Submission
+        document.getElementById("feedbackForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            if (!this.checkValidity()) {
+                alert("Please fill out all fields correctly.");
+                return;
+            }
+
+            let feedbackData = {
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                message: document.getElementById("message").value
+            };
+
+            emailjs.send("your-service-id", "your-template-id", feedbackData)
+                .then(response => {
+                    alert("Feedback sent successfully! ✅");
+                    document.getElementById("feedbackForm").reset();
+                }, error => {
+                    alert("Error sending feedback. Please try again later. ❌");
+                    console.error("EmailJS Error:", error);
+                });
+        });
+
+        // Smooth Scrolling for Navigation Links
+        document.querySelectorAll('.navbar a').forEach(link => {
+            link.addEventListener('click', function (e) {
+                if (this.getAttribute("href").startsWith("#")) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute("href").substring(1);
+                    document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+<!--ending feedback-->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="mb-2">© 2025 Kasumurthi Yashitha. All Rights Reserved.</p>
+            <div class="social-links mt-1">
+                <a href="https://linkedin.com/in/kasumurthi-yashitha" target="_blank" class="text-white mx-2"><i
+                        class="bi bi-linkedin"></i> LinkedIn</a>
+                <a href="mailto:kasumurthi.yashitha@example.com" class="text-white mx-2"><i class="bi bi-envelope"></i>
+                    Email</a>
+                <a href="#" class="text-white mx-2"><i class="bi bi-github"></i> GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        loadHome();
+    });
+
+    // Load Home Page
+    function loadHome() {
+        let home = document.getElementById('home');
+        let recipes = document.getElementById('recipes');
+        let details = document.getElementById('recipeDetailsPage');
+
+        if (home) home.classList.remove('hidden');
+        if (recipes) recipes.classList.add('hidden');
+        if (details) details.classList.add('hidden');
+    }
+
+    // Load Recipes Page
+    async function loadRecipes() {
+        let home = document.getElementById('home');
+        let recipes = document.getElementById('recipes');
+        let details = document.getElementById('recipeDetailsPage');
+
+        if (home) home.classList.add('hidden');
+        if (recipes) recipes.classList.remove('hidden');
+        if (details) details.classList.add('hidden');
+
+        try {
+            const response = await fetch('item.json');
+            if (!response.ok) throw new Error("Failed to load JSON file");
+            const data = await response.json();
+
+            const recipeGrid = document.getElementById('recipeGrid');
+            if (!recipeGrid) return;
+
+            recipeGrid.innerHTML = ''; // Clear previous content
+
+            data.recipes.forEach(recipe => {
+                const recipeCard = document.createElement('div');
+                recipeCard.className = 'col-md-4 mb-4';
+                recipeCard.innerHTML = `
+                    <div class="card neon-card">
+                        <img src="${recipe.image}" class="card-img-top" alt="${recipe.name}" width="300px" height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">${recipe.name}</h5>
+                            <p class="card-text">${recipe.cuisine} | Rating: ${recipe.rating}</p>
+                            <button class="btn btn-primary" onclick="loadRecipeDetails(${recipe.id})">View Details</button>
+                        </div>
+                    </div>
+                `;
+                recipeGrid.appendChild(recipeCard);
+            });
+
+        } catch (error) {
+            console.error("Error loading recipes:", error);
+        }
+    }
+
+    // Load Recipe Details Page
+    async function loadRecipeDetails(recipeId) {
+        let home = document.getElementById('home');
+        let recipes = document.getElementById('recipes');
+        let details = document.getElementById('recipeDetailsPage');
+
+        if (home) home.classList.add('hidden');
+        if (recipes) recipes.classList.add('hidden');
+        if (details) details.classList.remove('hidden');
+
+        try {
+            const response = await fetch('item.json');
+            if (!response.ok) throw new Error("Failed to load JSON file");
+            const data = await response.json();
+            const recipe = data.recipes.find(r => r.id == recipeId);
+
+            const recipeDetails = document.getElementById('recipeDetails');
+            if (!recipeDetails || !recipe) return;
+
+            recipeDetails.innerHTML = `
+                <div class="card neon-card">
+                    <img src="${recipe.image}" class="card-img-top" alt="${recipe.name}" width="450px" height="500px">
+                    <div class="card-body">
+                        <h2 class="card-title">${recipe.name}</h2>
+                        <p class="card-text"><strong>Cuisine:</strong> ${recipe.cuisine}</p>
+                        <p class="card-text"><strong>Difficulty:</strong> ${recipe.difficulty}</p>
+                        <p class="card-text"><strong>Rating:</strong> ${recipe.rating}</p>
+                        <h5>Ingredients:</h5>
+                        <ul>${recipe.ingredients.map(i => `<li>${i}</li>`).join('')}</ul>
+                        <h5>Instructions:</h5>
+                        <ol>${recipe.instructions.map(i => `<li>${i}</li>`).join('')}</ol>
+                    </div>
+                </div> `;
+        } catch (error) {
+            console.error("Error loading recipe details:", error);
+        }
+    }
+
+    // Filter Recipes
+    function filterRecipes() {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const cards = document.querySelectorAll('.card');
+
+        cards.forEach(card => {
+            const titleElement = card.querySelector('.card-title');
+            if (titleElement) {
+                const title = titleElement.textContent.toLowerCase();
+                card.style.display = title.includes(searchTerm) ? 'block' : 'none';
+            }
+        });
+    }
+
+    // Load Recipe Suggestions
+    async function loadSuggestions() {
+        document.getElementById('home').classList.add('hidden');
+        document.getElementById('recipes').classList.add('hidden');
+        document.getElementById('recipeDetailsPage').classList.add('hidden');
+        document.getElementById('suggestions').classList.remove('hidden');
+
+        try {
+            const response = await fetch('item.json');
+            if (!response.ok) throw new Error("Failed to load JSON file");
+            const data = await response.json();
+
+            const suggestionsContainer = document.getElementById('suggestionsList');
+            suggestionsContainer.innerHTML = ''; // Clear previous content
+
+            data.recipes.slice(0, 3).forEach(recipe => {
+                const suggestionCard = document.createElement('div');
+                suggestionCard.className = 'col-md-4 mb-4';
+                suggestionCard.innerHTML = `
+                <div class="card neon-card">
+                    <img src="${recipe.image}" class="card-img-top" alt="${recipe.name}" width="300px" height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">${recipe.name}</h5>
+                        <p class="card-text">${recipe.cuisine} | Rating: ⭐${recipe.rating}</p>
+                        <button class="btn btn-primary" onclick="loadRecipeDetails(${recipe.id})">View Recipe</button>
+                    </div>
+                </div>
+            `;
+                suggestionsContainer.appendChild(suggestionCard);
+            });
+
+        } catch (error) {
+            console.error("Error loading recipe suggestions:", error);
+        }
+    }
+
+    // Load More Suggestions
+    function loadMoreSuggestions() {
+        alert("More suggestions coming soon!");
+    }
+
+
+</script>
+<script>
+    // Smooth scrolling for navbar links
+    document.querySelectorAll('.nav-link, .dropdown-item').forEach(link => {
+        link.addEventListener('click', function (e) {
+            if (this.getAttribute("href").startsWith("#")) {
+                e.preventDefault();
+                const targetId = this.getAttribute("href").substring(1);
+                document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+</script>
+
+
+</body>
+
+</html>

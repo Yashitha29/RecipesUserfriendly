@@ -1,0 +1,1730 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Spaghetti Carbonara",
+      "image": "https://godairyfree.org/wp-content/uploads/2023/05/Spaghetti-Carbonara-feature4.jpg",
+      "difficulty": "Medium",
+      "rating": 4.5,
+      "cuisine": "Italian",
+      "ingredients": [
+        "Spaghetti",
+        "Eggs",
+        "Bacon",
+        "Parmesan Cheese",
+        "Garlic",
+        "Black Pepper"
+      ],
+      "instructions": [
+        "1. Cook spaghetti according to package instructions.",
+        "2. Fry bacon until crispy.",
+        "3. Beat eggs and mix with Parmesan cheese.",
+        "4. Combine cooked spaghetti with bacon and garlic.",
+        "5. Pour egg mixture over pasta and stir quickly.",
+        "6. Season with black pepper."
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 20,
+      "caloriesPerServing": 600,
+      "tags": [
+        "Pasta",
+        "Dinner",
+        "Quick Meal"
+      ],
+      "reviewCount": 150
+    },
+    {
+      "id": 2,
+      "name": "Chicken Tikka Masala",
+      "image": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+      "difficulty": "Hard",
+      "rating": 4.8,
+      "cuisine": "Indian",
+      "ingredients": [
+        "Chicken",
+        "Yogurt",
+        "Ginger-Garlic Paste",
+        "Tomatoes",
+        "Cream",
+        "Spices"
+      ],
+      "instructions": [
+        "1. Marinate chicken in yogurt and spices.",
+        "2. Cook marinated chicken until tender.",
+        "3. Prepare tomato-based sauce with ginger-garlic paste.",
+        "4. Combine chicken with sauce and simmer.",
+        "5. Add cream and cook for additional 5 minutes."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 45,
+      "caloriesPerServing": 700,
+      "tags": [
+        "Chicken",
+        "Curry",
+        "Rich"
+      ],
+      "reviewCount": 200
+    },
+    {
+      "id": 3,
+      "name": "Miso Soup",
+      "image": "https://www.allrecipes.com/thmb/jUDQQWFnYQIndbrSBMUQqVEngkA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-RM-13107-miso-soup-ddmfs-3x4-66171fe67e0546f6abf488075339fb13.jpg",
+      "difficulty": "Easy",
+      "rating": 4.2,
+      "cuisine": "Japanese",
+      "ingredients": [
+        "Miso Paste",
+        "Tofu",
+        "Seaweed",
+        "Green Onions",
+        "Dashi Stock"
+      ],
+      "instructions": [
+        "1. Heat dashi stock in a pot.",
+        "2. Add miso paste and stir until dissolved.",
+        "3. Add diced tofu and seaweed.",
+        "4. Garnish with green onions and serve."
+      ],
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 10,
+      "caloriesPerServing": 100,
+      "tags": [
+        "Soup",
+        "Light Meal",
+        "Healthy"
+      ],
+      "reviewCount": 80
+    },
+    {
+      "id": 4,
+      "name": "Beef Stroganoff",
+      "image": "https://www.gimmesomeoven.com/wp-content/uploads/2020/10/Beef-Stroganoff-Recipe-9.jpg",
+      "difficulty": "Medium",
+      "rating": 4.6,
+      "cuisine": "Russian",
+      "ingredients": [
+        "Beef",
+        "Mushrooms",
+        "Onions",
+        "Sour Cream",
+        "Flour",
+        "Butter"
+      ],
+      "instructions": [
+        "1. Cook beef strips in a pan until browned.",
+        "2. Sauté onions and mushrooms.",
+        "3. Add flour to thicken, then stir in sour cream.",
+        "4. Combine with cooked beef and serve over noodles."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 30,
+      "caloriesPerServing": 650,
+      "tags": [
+        "Beef",
+        "Comfort Food",
+        "Dinner"
+      ],
+      "reviewCount": 120
+    },
+    {
+      "id": 5,
+      "name": "Pad Thai",
+      "image": "https://inquiringchef.com/wp-content/uploads/2023/02/Authentic-Pad-Thai_square-1908-500x500.jpg",
+      "difficulty": "Hard",
+      "rating": 4.9,
+      "cuisine": "Thai",
+      "ingredients": [
+        "Rice Noodles",
+        "Shrimp",
+        "Eggs",
+        "Peanuts",
+        "Bean Sprouts",
+        "Tamarind Sauce"
+      ],
+      "instructions": [
+        "1. Soak rice noodles in water.",
+        "2. Stir-fry shrimp and eggs.",
+        "3. Add noodles, tamarind sauce, and other ingredients.",
+        "4. Toss well and garnish with peanuts and lime."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 25,
+      "caloriesPerServing": 500,
+      "tags": [
+        "Noodles",
+        "Seafood",
+        "Popular Dish"
+      ],
+      "reviewCount": 300
+    },
+    {
+      "id": 6,
+      "name": "Cheeseburger",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFExWftHhBK07UkiHZykqbo1RFUZEa2ecFgg&s",
+      "difficulty": "Easy",
+      "rating": 4.3,
+      "cuisine": "American",
+      "ingredients": [
+        "Beef Patty",
+        "Cheddar Cheese",
+        "Lettuce",
+        "Tomatoes",
+        "Pickles",
+        "Bun"
+      ],
+      "instructions": [
+        "1. Grill beef patty until cooked.",
+        "2. Toast the buns lightly.",
+        "3. Assemble with cheese, lettuce, and other toppings.",
+        "4. Serve with fries or a salad."
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 15,
+      "caloriesPerServing": 450,
+      "tags": [
+        "Burger",
+        "Quick Meal",
+        "Fast Food"
+      ],
+      "reviewCount": 250
+    },
+    {
+      "id": 7,
+      "name": "Tacos",
+      "image": "https://oliviaadriance.com/wp-content/uploads/2023/07/Final_3_Crispy_Baked_Beef_Tacos_grain-free-dairy-free.jpg",
+      "difficulty": "Easy",
+      "rating": 4.4,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Taco Shells",
+        "Ground Beef",
+        "Lettuce",
+        "Tomato",
+        "Cheese",
+        "Sour Cream",
+        "Salsa"
+      ],
+      "instructions": [
+        "1. Cook ground beef with taco seasoning.",
+        "2. Warm taco shells.",
+        "3. Fill taco shells with beef, lettuce, tomato, and cheese.",
+        "4. Top with sour cream and salsa."
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 15,
+      "caloriesPerServing": 450,
+      "tags": [
+        "Mexican",
+        "Quick Meal",
+        "Comfort Food"
+      ],
+      "reviewCount": 120
+    },
+    {
+      "id": 8,
+      "name": "Sushi Rolls",
+      "image": "https://th.bing.com/th/id/OIP.FpYGNrs12c7Owy7VlpUPtAHaIk?rs=1&pid=ImgDetMain",
+      "difficulty": "Medium",
+      "rating": 4.7,
+      "cuisine": "Japanese",
+      "ingredients": [
+        "Sushi Rice",
+        "Nori Sheets",
+        "Tuna",
+        "Avocado",
+        "Cucumber",
+        "Soy Sauce"
+      ],
+      "instructions": [
+        "1. Cook sushi rice and let it cool.",
+        "2. Place nori sheet on a bamboo mat.",
+        "3. Spread rice, then add tuna, avocado, and cucumber.",
+        "4. Roll tightly, slice, and serve with soy sauce."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 10,
+      "caloriesPerServing": 250,
+      "tags": [
+        "Japanese",
+        "Healthy",
+        "Seafood"
+      ],
+      "reviewCount": 160
+    },
+    {
+      "id": 9,
+      "name": "Beef Wellington",
+      "image": "https://img.freepik.com/premium-photo/beef-wellington-closeup-tender-filet-beef-coated-with-pate-wrapped-puff-pastry_798657-13099.jpg",
+      "difficulty": "Hard",
+      "rating": 4.8,
+      "cuisine": "British",
+      "ingredients": [
+        "Beef Tenderloin",
+        "Puff Pastry",
+        "Mushrooms",
+        "Dijon Mustard",
+        "Egg Wash",
+        "Prosciutto"
+      ],
+      "instructions": [
+        "1. Sear the beef tenderloin and coat with mustard.",
+        "2. Roll mushrooms and prosciutto around the beef.",
+        "3. Wrap the beef in puff pastry and brush with egg wash.",
+        "4. Bake until golden and serve."
+      ],
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 60,
+      "caloriesPerServing": 900,
+      "tags": [
+        "British",
+        "Gourmet",
+        "Beef"
+      ],
+      "reviewCount": 90
+    },
+    {
+      "id": 10,
+      "name": "Pad Thai",
+      "image": "https://dinnerthendessert.com/wp-content/uploads/2018/03/Pad-Thai-Recipe-4-768x1031.jpg",
+      "difficulty": "Medium",
+      "rating": 4.5,
+      "cuisine": "Thai",
+      "ingredients": [
+        "Rice Noodles",
+        "Shrimp",
+        "Tofu",
+        "Peanuts",
+        "Eggs",
+        "Lime",
+        "Fish Sauce"
+      ],
+      "instructions": [
+        "1. Cook rice noodles.",
+        "2. Stir-fry shrimp, tofu, and eggs.",
+        "3. Add noodles, fish sauce, and stir well.",
+        "4. Garnish with peanuts and lime."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 15,
+      "caloriesPerServing": 600,
+      "tags": [
+        "Thai",
+        "Noodles",
+        "Seafood"
+      ],
+      "reviewCount": 150
+    },
+    {
+      "id": 11,
+      "name": "Eggplant Parmesan",
+      "image": "https://th.bing.com/th/id/OIP.1OYL2kqhOn1rdz8GQyYZSAHaLH?rs=1&pid=ImgDetMain",
+      "difficulty": "Medium",
+      "rating": 4.6,
+      "cuisine": "Italian",
+      "ingredients": [
+        "Eggplant",
+        "Marinara Sauce",
+        "Mozzarella",
+        "Parmesan",
+        "Basil",
+        "Bread Crumbs"
+      ],
+      "instructions": [
+        "1. Slice and bread eggplant.",
+        "2. Fry eggplant slices until crispy.",
+        "3. Layer eggplant, sauce, and cheese in a baking dish.",
+        "4. Bake until bubbly and serve."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 45,
+      "caloriesPerServing": 500,
+      "tags": [
+        "Vegetarian",
+        "Italian",
+        "Comfort Food"
+      ],
+      "reviewCount": 200
+    },
+    {
+      "id": 12,
+      "name": "Caesar Salad",
+      "image": "https://bing.com/th?id=OSK.3f8716fa688067eb7ac348866a79715b",
+      "difficulty": "Easy",
+      "rating": 4.4,
+      "cuisine": "American",
+      "ingredients": [
+        "Lettuce",
+        "Caesar Dressing",
+        "Croutons",
+        "Parmesan",
+        "Anchovies"
+      ],
+      "instructions": [
+        "1. Toss lettuce with Caesar dressing.",
+        "2. Add croutons and parmesan.",
+        "3. Serve with anchovies on top."
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "caloriesPerServing": 300,
+      "tags": [
+        "Salad",
+        "Quick Meal",
+        "Vegetarian"
+      ],
+      "reviewCount": 170
+    },
+    {
+      "id": 13,
+      "name": "Falafel",
+      "image": "https://bing.com/th?id=OSK.1c145cd9a6f75d6cb02737f3cbcd4056",
+      "difficulty": "Medium",
+      "rating": 4.5,
+      "cuisine": "Middle Eastern",
+      "ingredients": [
+        "Chickpeas",
+        "Garlic",
+        "Cumin",
+        "Coriander",
+        "Parsley",
+        "Onion",
+        "Olive Oil"
+      ],
+      "instructions": [
+        "1. Blend chickpeas with garlic, spices, and herbs.",
+        "2. Shape into balls and fry until golden.",
+        "3. Serve with pita, veggies, and tahini sauce."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "caloriesPerServing": 350,
+      "tags": [
+        "Vegetarian",
+        "Snacks",
+        "Middle Eastern"
+      ],
+      "reviewCount": 130
+    },
+    {
+      "id": 14,
+      "name": "Grilled Cheese Sandwich",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzGEo-Bklr91MzbRP8XQfHI6lriuKVzEOwVw&s",
+      "difficulty": "Easy",
+      "rating": 4.2,
+      "cuisine": "American",
+      "ingredients": [
+        "Bread",
+        "Cheddar Cheese",
+        "Butter"
+      ],
+      "instructions": [
+        "1. Butter the bread slices.",
+        "2. Place cheese between slices and grill until golden brown.",
+        "3. Serve with tomato soup for a classic combo."
+      ],
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 5,
+      "caloriesPerServing": 450,
+      "tags": [
+        "Comfort Food",
+        "Quick Meal",
+        "Snack"
+      ],
+      "reviewCount": 250
+    },
+    {
+      "id": 15,
+      "name": "Peking Duck",
+      "image": "https://www.allrecipes.com/thmb/xO7QAOUMGfihPRBvvwEMIC-zhtw=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/AR-31972-peking-duck-DDMFS-4x3-hero-3344139da66141b687e1d7b85b995bf5.jpg",
+      "difficulty": "Hard",
+      "rating": 4.8,
+      "cuisine": "Chinese",
+      "ingredients": [
+        "Duck",
+        "Soy Sauce",
+        "Hoisin Sauce",
+        "Pancakes",
+        "Cucumber",
+        "Scallions"
+      ],
+      "instructions": [
+        "1. Roast the duck until skin is crispy.",
+        "2. Prepare pancakes and garnish with cucumber and scallions.",
+        "3. Serve with hoisin sauce and duck slices."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 90,
+      "caloriesPerServing": 700,
+      "tags": [
+        "Duck",
+        "Festive",
+        "Chinese"
+      ],
+      "reviewCount": 90
+    },
+    {
+      "id": 16,
+      "name": "Shrimp Scampi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj5YdYf4Eez99z2iqRJs3AP_Fr51Yypkg9XQ&s",
+      "difficulty": "Medium",
+      "rating": 4.7,
+      "cuisine": "Italian",
+      "ingredients": [
+        "Shrimp",
+        "Garlic",
+        "Butter",
+        "Lemon",
+        "Parsley",
+        "Spaghetti"
+      ],
+      "instructions": [
+        "1. Sauté garlic in butter.",
+        "2. Add shrimp and cook until pink.",
+        "3. Toss with cooked spaghetti and lemon juice.",
+        "4. Garnish with parsley and serve."
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 15,
+      "caloriesPerServing": 500,
+      "tags": [
+        "Seafood",
+        "Pasta",
+        "Italian"
+      ],
+      "reviewCount": 180
+    },
+    {
+      "id": 17,
+      "name": "Paella",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtawLrWjpfteMImWIqQHkNooeudUxGA9JsVg&s",
+      "difficulty": "Hard",
+      "rating": 4.6,
+      "cuisine": "Spanish",
+      "ingredients": [
+        "Rice",
+        "Seafood",
+        "Chicken",
+        "Bell Peppers",
+        "Saffron",
+        "Garlic"
+      ],
+      "instructions": [
+        "1. Cook chicken in a pan.",
+        "2. Add rice, saffron, and broth.",
+        "3. Add seafood and cook until tender.",
+        "4. Serve with lemon wedges."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 45,
+      "caloriesPerServing": 600,
+      "tags": [
+        "Seafood",
+        "Rice",
+        "Spanish"
+      ],
+      "reviewCount": 140
+    },
+    {
+      "id": 18,
+      "name": "Vegetarian Chili",
+      "image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2F9fff417ed363c61374bb3a2523683b9949b51fb9",
+      "difficulty": "Medium",
+      "rating": 4.4,
+      "cuisine": "American",
+      "ingredients": [
+        "Beans",
+        "Tomatoes",
+        "Bell Peppers",
+        "Onions",
+        "Chili Powder",
+        "Garlic"
+      ],
+      "instructions": [
+        "1. Sauté onions and peppers.",
+        "2. Add tomatoes, beans, and chili powder.",
+        "3. Simmer for 30 minutes.",
+        "4. Serve with cornbread or over rice."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 45,
+      "caloriesPerServing": 350,
+      "tags": [
+        "Vegetarian",
+        "Healthy",
+        "Comfort Food"
+      ],
+      "reviewCount": 160
+    },
+    {
+      "id": 19,
+      "name": "Bangers and Mash",
+      "image": "https://www.crunchycreamysweet.com/wp-content/uploads/2019/03/Bangers-and-mash-feat.png",
+      "difficulty": "Medium",
+      "rating": 4.3,
+      "cuisine": "British",
+      "ingredients": [
+        "Sausages",
+        "Potatoes",
+        "Butter",
+        "Milk",
+        "Onions",
+        "Gravy"
+      ],
+      "instructions": [
+        "1. Cook sausages until browned.",
+        "2. Boil potatoes and mash with butter and milk.",
+        "3. Make onion gravy.",
+        "4. Serve sausages over mash with gravy."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 30,
+      "caloriesPerServing": 700,
+      "tags": [
+        "British",
+        "Comfort Food",
+        "Pork"
+      ],
+      "reviewCount": 200
+    },
+    {
+      "id": 20,
+      "name": "Tiramisu",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo0Y_0IU5XnMY6wmwgdU9AQ4x1cTRZGSGe-w&s",
+      "difficulty": "Medium",
+      "rating": 4.9,
+      "cuisine": "Italian",
+      "ingredients": [
+        "Ladyfingers",
+        "Mascarpone",
+        "Espresso",
+        "Cocoa Powder",
+        "Egg Yolks",
+        "Sugar"
+      ],
+      "instructions": [
+        "1. Soak ladyfingers in espresso.",
+        "2. Whisk mascarpone, egg yolks, and sugar.",
+        "3. Layer soaked ladyfingers with mascarpone mixture.",
+        "4. Dust with cocoa powder and refrigerate."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 0,
+      "caloriesPerServing": 400,
+      "tags": [
+        "Dessert",
+        "Italian",
+        "Sweet"
+      ],
+      "reviewCount": 220
+    },
+    {
+      "id": 21,
+      "name": "Chiles en Nogada",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS70ZxVy0Ah56FlOG-4jpzD0g0GwCl2BrUAzQ&s",
+      "difficulty": "Hard",
+      "rating": 4.7,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Poblano Peppers",
+        "Ground Pork",
+        "Fruits",
+        "Walnut Sauce",
+        "Parsley"
+      ],
+      "instructions": [
+        "1. Roast poblano peppers.",
+        "2. Stuff with spiced pork and fruits.",
+        "3. Top with walnut sauce and garnish with parsley."
+      ],
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 60,
+      "caloriesPerServing": 550,
+      "tags": [
+        "Festive",
+        "Traditional",
+        "Mexican"
+      ],
+      "reviewCount": 120
+    },
+    {
+      "id": 22,
+      "name": "Mole Poblano",
+      "image": "https://www.mexicoinmykitchen.com/wp-content/uploads/2009/02/Mole-Poblano-recipe-2-480x270.jpg",
+      "difficulty": "Hard",
+      "rating": 4.8,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Chicken",
+        "Chocolate",
+        "Chilies",
+        "Spices",
+        "Tortillas"
+      ],
+      "instructions": [
+        "1. Cook chicken.",
+        "2. Prepare mole sauce with chocolate and spices.",
+        "3. Serve with tortillas."
+      ],
+      "prepTimeMinutes": 50,
+      "cookTimeMinutes": 90,
+      "caloriesPerServing": 700,
+      "tags": [
+        "Rich",
+        "Traditional",
+        "Mexican"
+      ],
+      "reviewCount": 150
+    },
+    {
+      "id": 23,
+      "name": "Tacos al Pastor",
+      "image": "https://www.maricruzavalos.com/wp-content/uploads/2021/01/tacos-al-pastor-recipe.jpg",
+      "difficulty": "Medium",
+      "rating": 4.6,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Pork",
+        "Pineapple",
+        "Chilies",
+        "Onions",
+        "Cilantro",
+        "Tortillas"
+      ],
+      "instructions": [
+        "1. Marinate pork with spices and chilies.",
+        "2. Grill with pineapple slices.",
+        "3. Serve on tortillas with onions and cilantro."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 30,
+      "caloriesPerServing": 450,
+      "tags": [
+        "Street Food",
+        "Pork",
+        "Mexican"
+      ],
+      "reviewCount": 200
+    },
+    {
+      "id": 24,
+      "name": "Pozole",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRddnI5ju20VczRoyb0puZjGXlcxCijuVBubg&s",
+      "difficulty": "Medium",
+      "rating": 4.7,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Pork",
+        "Hominy",
+        "Chilies",
+        "Lettuce",
+        "Radishes",
+        "Oregano"
+      ],
+      "instructions": [
+        "1. Cook pork with hominy and chilies.",
+        "2. Serve with lettuce, radishes, and oregano.",
+        "3. Add lime juice for extra flavor."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 120,
+      "caloriesPerServing": 500,
+      "tags": [
+        "Soup",
+        "Traditional",
+        "Mexican"
+      ],
+      "reviewCount": 180
+    },
+    {
+      "id": 25,
+      "name": "Enchiladas Verdes",
+      "image": "https://www.mexicoinmykitchen.com/wp-content/uploads/2022/11/Enchiladas-verdes-2.jpg",
+      "difficulty": "Medium",
+      "rating": 4.5,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Chicken",
+        "Tomatillos",
+        "Green Chilies",
+        "Tortillas",
+        "Cheese",
+        "Cream"
+      ],
+      "instructions": [
+        "1. Cook chicken and shred.",
+        "2. Blend tomatillos and chilies for sauce.",
+        "3. Fill tortillas, roll, and top with sauce and cheese.",
+        "4. Bake until bubbly."
+      ],
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 30,
+      "caloriesPerServing": 400,
+      "tags": [
+        "Chicken",
+        "Baked",
+        "Mexican"
+      ],
+      "reviewCount": 160
+    },
+    {
+      "id": 26,
+      "name": "Tamales",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjoELYGdHQeMDJddtNb5VQA9nReOcac6zaqQ&s",
+      "difficulty": "Hard",
+      "rating": 4.8,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Masa",
+        "Pork",
+        "Chilies",
+        "Corn Husks",
+        "Lard",
+        "Spices"
+      ],
+      "instructions": [
+        "1. Prepare masa dough with lard.",
+        "2. Fill corn husks with masa and pork filling.",
+        "3. Steam until cooked through."
+      ],
+      "prepTimeMinutes": 60,
+      "cookTimeMinutes": 90,
+      "caloriesPerServing": 350,
+      "tags": [
+        "Traditional",
+        "Steamed",
+        "Mexican"
+      ],
+      "reviewCount": 220
+    },
+    {
+      "id": 27,
+      "name": "Chilaquiles",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrlTOvwBDCsQzveAfb2qiexRl2Swyjl8imYw&s",
+      "difficulty": "Easy",
+      "rating": 4.4,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Tortilla Chips",
+        "Salsa",
+        "Chicken",
+        "Cheese",
+        "Cream",
+        "Cilantro"
+      ],
+      "instructions": [
+        "1. Heat salsa in a pan.",
+        "2. Add tortilla chips and toss.",
+        "3. Top with chicken, cheese, and cream.",
+        "4. Garnish with cilantro."
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 15,
+      "caloriesPerServing": 400,
+      "tags": [
+        "Breakfast",
+        "Quick Meal",
+        "Mexican"
+      ],
+      "reviewCount": 150
+    },
+    {
+      "id": 28,
+      "name": "Carnitas",
+      "image": "https://www.inspiredtaste.net/wp-content/uploads/2022/11/Carnitas-1200.jpg",
+      "difficulty": "Medium",
+      "rating": 4.7,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Pork Shoulder",
+        "Orange Juice",
+        "Garlic",
+        "Cumin",
+        "Bay Leaves",
+        "Lard"
+      ],
+      "instructions": [
+        "1. Cook pork in lard with orange juice and spices.",
+        "2. Shred and crisp in the oven.",
+        "3. Serve with tortillas and salsa."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 180,
+      "caloriesPerServing": 600,
+      "tags": [
+        "Pork",
+        "Slow-Cooked",
+        "Mexican"
+      ],
+      "reviewCount": 190
+    },
+    {
+      "id": 29,
+      "name": "Guacamole",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J9EV-vOS0cdm75JVqXb6YGaBYC2ELTQvzw&s",
+      "difficulty": "Easy",
+      "rating": 4.6,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Avocado",
+        "Lime",
+        "Tomato",
+        "Onion",
+        "Cilantro",
+        "Jalapeño"
+      ],
+      "instructions": [
+        "1. Mash avocados.",
+        "2. Mix with lime juice, tomatoes, onions, and cilantro.",
+        "3. Add jalapeño for spice."
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "caloriesPerServing": 200,
+      "tags": [
+        "Dip",
+        "Healthy",
+        "Mexican"
+      ],
+      "reviewCount": 300
+    },
+    {
+      "id": 30,
+      "name": "Quesadillas",
+      "image": "https://cookingformysoul.com/wp-content/uploads/2019/02/feat2-chicken-quesadillas.jpg",
+      "difficulty": "Easy",
+      "rating": 4.3,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Tortillas",
+        "Cheese",
+        "Chicken",
+        "Bell Peppers",
+        "Onions",
+        "Salsa"
+      ],
+      "instructions": [
+        "1. Fill tortillas with cheese and chicken.",
+        "2. Cook on a griddle until cheese melts.",
+        "3. Serve with salsa."
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 10,
+      "caloriesPerServing": 350,
+      "tags": [
+        "Quick Meal",
+        "Cheesy",
+        "Mexican"
+      ],
+      "reviewCount": 250
+    },
+    {
+      "id": 31,
+      "name": "Sopaipillas",
+      "image": "https://cdn.shopify.com/s/files/1/0607/2922/9450/files/sopaipillas2-6.jpg?v=1688131534",
+      "difficulty": "Medium",
+      "rating": 4.5,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Flour",
+        "Baking Powder",
+        "Salt",
+        "Oil",
+        "Honey"
+      ],
+      "instructions": [
+        "1. Mix dough and roll out.",
+        "2. Fry until puffed and golden.",
+        "3. Drizzle with honey."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "caloriesPerServing": 300,
+      "tags": [
+        "Dessert",
+        "Fried",
+        "Mexican"
+      ],
+      "reviewCount": 120
+    },
+    {
+      "id": 32,
+      "name": "Birria Tacos",
+      "image": "https://www.recipeworkbook.com/wp-content/uploads/2020/10/birriatacos-500x375.jpg",
+      "difficulty": "Hard",
+      "rating": 4.9,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Beef",
+        "Dried Chilies",
+        "Garlic",
+        "Cumin",
+        "Tortillas",
+        "Cheese"
+      ],
+      "instructions": [
+        "1. Slow-cook beef with chilies and spices.",
+        "2. Shred and serve in tortillas with cheese.",
+        "3. Dip in consommé."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 240,
+      "caloriesPerServing": 700,
+      "tags": [
+        "Beef",
+        "Spicy",
+        "Mexican"
+      ],
+      "reviewCount": 280
+    },
+    {
+      "id": 33,
+      "name": "Chiles Rellenos",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNZKVrWg2Y729BCnM2pTX-OapAX2ezbYpapQ&s",
+      "difficulty": "Hard",
+      "rating": 4.7,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Poblano Peppers",
+        "Cheese",
+        "Eggs",
+        "Tomato Sauce",
+        "Flour"
+      ],
+      "instructions": [
+        "1. Roast and peel peppers.",
+        "2. Stuff with cheese, coat in egg batter, and fry.",
+        "3. Serve with tomato sauce."
+      ],
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 30,
+      "caloriesPerServing": 500,
+      "tags": [
+        "Stuffed",
+        "Fried",
+        "Mexican"
+      ],
+      "reviewCount": 170
+    },
+    {
+      "id": 34,
+      "name": "Tostadas",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToRl9mW10o9DpvdsbajPExpCFMNn8d3_sQwA&s",
+      "difficulty": "Easy",
+      "rating": 4.4,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Tostada Shells",
+        "Beans",
+        "Lettuce",
+        "Cheese",
+        "Salsa",
+        "Sour Cream"
+      ],
+      "instructions": [
+        "1. Spread beans on tostada shells.",
+        "2. Top with lettuce, cheese, and salsa.",
+        "3. Add sour cream and serve."
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 5,
+      "caloriesPerServing": 300,
+      "tags": [
+        "Quick Meal",
+        "Crunchy",
+        "Mexican"
+      ],
+      "reviewCount": 140
+    },
+    {
+      "id": 35,
+      "name": "Menudo",
+      "image": "https://images.slurrp.com/prod/recipe_images/transcribe/main%20course/Menudo.webp",
+      "difficulty": "Hard",
+      "rating": 4.6,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Beef Tripe",
+        "Hominy",
+        "Chilies",
+        "Garlic",
+        "Oregano",
+        "Lime"
+      ],
+      "instructions": [
+        "1. Cook tripe with hominy and spices.",
+        "2. Simmer until tender.",
+        "3. Serve with lime and oregano."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 240,
+      "caloriesPerServing": 450,
+      "tags": [
+        "Soup",
+        "Traditional",
+        "Mexican"
+      ],
+      "reviewCount": 130
+    },
+    {
+      "id": 36,
+      "name": "Flan",
+      "image": "https://beantrain.com/wp-content/uploads/2021/06/Flan_recipe.jpg",
+      "difficulty": "Medium",
+      "rating": 4.8,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Eggs",
+        "Milk",
+        "Sugar",
+        "Vanilla"
+      ],
+      "instructions": [
+        "1. Caramelize sugar in a mold.",
+        "2. Mix eggs, milk, and vanilla.",
+        "3. Bake in a water bath until set."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 60,
+      "caloriesPerServing": 300,
+      "tags": [
+        "Dessert",
+        "Creamy",
+        "Mexican"
+      ],
+      "reviewCount": 200
+    },
+    {
+      "id": 37,
+      "name": "Pico de Gallo",
+      "image": "https://www.acedarspoon.com/wp-content/uploads/2023/04/Homemade-Pico-de-Gallo-Image-5-735x1103.jpg",
+      "difficulty": "Easy",
+      "rating": 4.5,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Tomatoes",
+        "Onions",
+        "Cilantro",
+        "Lime",
+        "Jalapeño"
+      ],
+      "instructions": [
+        "1. Dice tomatoes and onions.",
+        "2. Mix with cilantro, lime juice, and jalapeño.",
+        "3. Serve as a fresh salsa."
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "caloriesPerServing": 50,
+      "tags": [
+        "Dip",
+        "Healthy",
+        "Mexican"
+      ],
+      "reviewCount": 180
+    },
+    {
+      "id": 38,
+      "name": "Horchata",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOj88AZR5X39ldWM0Gk9S2reKMo2DSCLTp9w&s",
+      "difficulty": "Easy",
+      "rating": 4.4,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Rice",
+        "Cinnamon",
+        "Milk",
+        "Sugar",
+        "Vanilla"
+      ],
+      "instructions": [
+        "1. Soak rice and cinnamon.",
+        "2. Blend and strain.",
+        "3. Mix with milk and sugar.",
+        "4. Serve chilled."
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "caloriesPerServing": 200,
+      "tags": [
+        "Drink",
+        "Refreshing",
+        "Mexican"
+      ],
+      "reviewCount": 150
+    },
+    {
+      "id": 39,
+      "name": "Ceviche",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Ttk5e7BeqjluTgta0BXQxrSVMMHHb8B2Ag&s",
+      "difficulty": "Medium",
+      "rating": 4.7,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Fish",
+        "Lime",
+        "Tomatoes",
+        "Onions",
+        "Cilantro",
+        "Avocado"
+      ],
+      "instructions": [
+        "1. Marinate fish in lime juice.",
+        "2. Mix with tomatoes, onions, and cilantro.",
+        "3. Serve with avocado."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 0,
+      "caloriesPerServing": 250,
+      "tags": [
+        "Seafood",
+        "Healthy",
+        "Mexican"
+      ],
+      "reviewCount": 160
+    },
+    {
+      "id": 40,
+      "name": "Churros",
+      "image": "https://www.allrecipes.com/thmb/qq9s8jlKplKUDEo3Gtk15EAJpHc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-recipe-24700-churros-VAT-hero-03-4x3-a7f6af1860934b0385f84ab9f13f2613.jpg",
+      "difficulty": "Medium",
+      "rating": 4.9,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "Flour",
+        "Water",
+        "Sugar",
+        "Cinnamon",
+        "Oil"
+      ],
+      "instructions": [
+        "1. Make dough and pipe into hot oil.",
+        "2. Fry until golden.",
+        "3. Roll in cinnamon sugar."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "caloriesPerServing": 300,
+      "tags": [
+        "Dessert",
+        "Fried",
+        "Mexican"
+      ],
+      "reviewCount": 250
+    },
+    {
+      "id": 41,
+      "name": "Biryani",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/f594f4f63d3e00e93203f02d40e38d24",
+      "difficulty": "Hard",
+      "rating": 4.8,
+      "cuisine": "Indian",
+      "ingredients": [
+        "Basmati Rice",
+        "Chicken",
+        "Yogurt",
+        "Spices",
+        "Saffron",
+        "Onions"
+      ],
+      "instructions": [
+        "1. Marinate chicken in yogurt and spices.",
+        "2. Layer rice and chicken in a pot.",
+        "3. Cook on low heat until done."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 60,
+      "caloriesPerServing": 700,
+      "tags": [
+        "Rice",
+        "Spicy",
+        "Indian"
+      ],
+      "reviewCount": 300
+    },
+    {
+      "id": 42,
+      "name": "Rogan Josh",
+      "image": "https://www.ruchikrandhap.com/wp-content/uploads/2021/09/Rogan-Josh_3.jpeg",
+      "difficulty": "Medium",
+      "rating": 4.7,
+      "cuisine": "Indian",
+      "ingredients": [
+        "Lamb",
+        "Tomatoes",
+        "Yogurt",
+        "Spices",
+        "Ginger",
+        "Garlic"
+      ],
+      "instructions": [
+        "1. Cook lamb with spices and tomatoes.",
+        "2. Add yogurt and simmer.",
+        "3. Serve with rice or naan."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 90,
+      "caloriesPerServing": 600,
+      "tags": [
+        "Lamb",
+        "Curry",
+        "Indian"
+      ],
+      "reviewCount": 250
+    },
+    {
+      "id": 43,
+      "name": "Sushi Rolls",
+      "image": "https://int.japanesetaste.com/cdn/shop/articles/how-to-make-makizushi-sushi-rolls-japanese-taste.jpg?v=1707914944&width=5760",
+      "difficulty": "Medium",
+      "rating": 4.6,
+      "cuisine": "Japanese",
+      "ingredients": [
+        "Sushi Rice",
+        "Nori",
+        "Fish",
+        "Cucumber",
+        "Avocado",
+        "Soy Sauce"
+      ],
+      "instructions": [
+        "1. Spread rice on nori.",
+        "2. Add fillings and roll tightly.",
+        "3. Slice and serve with soy sauce."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 20,
+      "caloriesPerServing": 300,
+      "tags": [
+        "Seafood",
+        "Healthy",
+        "Japanese"
+      ],
+      "reviewCount": 200
+    },
+    {
+      "id": 44,
+      "name": "Ramen",
+      "image": "https://www.pacificfoods.com/wp-content/uploads/2024/10/15-Minute-Spicy-Red-Miso-Ramen.jpg",
+      "difficulty": "Medium",
+      "rating": 4.5,
+      "cuisine": "Japanese",
+      "ingredients": [
+        "Noodles",
+        "Broth",
+        "Pork",
+        "Egg",
+        "Green Onions",
+        "Seaweed"
+      ],
+      "instructions": [
+        "1. Cook noodles and broth.",
+        "2. Add toppings like pork and egg.",
+        "3. Garnish with green onions and seaweed."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 30,
+      "caloriesPerServing": 500,
+      "tags": [
+        "Noodles",
+        "Soup",
+        "Japanese"
+      ],
+      "reviewCount": 180
+    },
+    {
+      "id": 45,
+      "name": "Jollof Rice",
+      "image": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/42788e49474248dba75fdfd47114024a/BFV43575_PartyRiceAroundAfrica-FB-V2.jpg?resize=1200:*",
+      "difficulty": "Medium",
+      "rating": 4.6,
+      "cuisine": "African",
+      "ingredients": [
+        "Rice",
+        "Tomatoes",
+        "Onions",
+        "Bell Peppers",
+        "Spices",
+        "Chicken"
+      ],
+      "instructions": [
+        "1. Cook rice in tomato-based sauce.",
+        "2. Add vegetables and spices.",
+        "3. Serve with chicken."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 40,
+      "caloriesPerServing": 500,
+      "tags": [
+        "Rice",
+        "Spicy",
+        "African"
+      ],
+      "reviewCount": 220
+    },
+    {
+      "id": 46,
+      "name": "Tom Yum Soup",
+      "image": "https://www.recipetineats.com/tachyon/2019/09/Tom-Yum-soup_2.jpg",
+      "difficulty": "Medium",
+      "rating": 4.6,
+      "cuisine": "Thai",
+      "ingredients": [
+        "Shrimp",
+        "Lemongrass",
+        "Kaffir Lime Leaves",
+        "Chilies",
+        "Mushrooms",
+        "Fish Sauce"
+      ],
+      "instructions": [
+        "1. Boil lemongrass and lime leaves.",
+        "2. Add shrimp and mushrooms.",
+        "3. Season with fish sauce and chilies."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 25,
+      "caloriesPerServing": 300,
+      "tags": [
+        "Soup",
+        "Spicy",
+        "Thai"
+      ],
+      "reviewCount": 190
+    },
+    {
+      "id": 47,
+      "name": "Pho",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo9I3Zng6RR-OxVAohozeKxDoLRUAg_IHqeQ&s",
+      "difficulty": "Hard",
+      "rating": 4.8,
+      "cuisine": "Vietnamese",
+      "ingredients": [
+        "Beef",
+        "Rice Noodles",
+        "Broth",
+        "Star Anise",
+        "Cinnamon",
+        "Bean Sprouts"
+      ],
+      "instructions": [
+        "1. Simmer beef bones for broth.",
+        "2. Cook noodles and add broth.",
+        "3. Top with beef and bean sprouts."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 180,
+      "caloriesPerServing": 500,
+      "tags": [
+        "Noodles",
+        "Soup",
+        "Vietnamese"
+      ],
+      "reviewCount": 240
+    },
+    {
+      "id": 48,
+      "name": "Banh Mi",
+      "image": "https://kikkomanusa.com/foodservice/wp-content/uploads/sites/2/2022/06/East-Side-Bahn-Mi_Kikkoman.jpg",
+      "difficulty": "Easy",
+      "rating": 4.5,
+      "cuisine": "Vietnamese",
+      "ingredients": [
+        "Baguette",
+        "Pork",
+        "Pickled Vegetables",
+        "Cilantro",
+        "Mayonnaise",
+        "Chilies"
+      ],
+      "instructions": [
+        "1. Slice baguette and fill with pork.",
+        "2. Add pickled vegetables and cilantro.",
+        "3. Spread mayonnaise and add chilies."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 10,
+      "caloriesPerServing": 400,
+      "tags": [
+        "Sandwich",
+        "Street Food",
+        "Vietnamese"
+      ],
+      "reviewCount": 200
+    },
+    {
+      "id": 49,
+      "name": "Bobotie",
+      "image": "https://miro.medium.com/v2/resize:fit:663/1*jc3-HJu9v05KnKZxqQvCaQ.png",
+      "difficulty": "Medium",
+      "rating": 4.5,
+      "cuisine": "African",
+      "ingredients": [
+        "Ground Beef",
+        "Bread",
+        "Milk",
+        "Eggs",
+        "Curry Powder",
+        "Raisins"
+      ],
+      "instructions": [
+        "1. Cook beef with curry and raisins.",
+        "2. Top with milk and egg mixture.",
+        "3. Bake until golden."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 60,
+      "caloriesPerServing": 450,
+      "tags": [
+        "Baked",
+        "Spicy",
+        "African"
+      ],
+      "reviewCount": 180
+    },
+    {
+      "id": 50,
+      "name": "Gazpacho",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyXQRk5xSOvmQ82p8br2Y9A78bKqci1dcCDg&s",
+      "difficulty": "Easy",
+      "rating": 4.4,
+      "cuisine": "Spanish",
+      "ingredients": [
+        "Tomatoes",
+        "Cucumber",
+        "Bell Peppers",
+        "Onions",
+        "Garlic",
+        "Olive Oil"
+      ],
+      "instructions": [
+        "1. Blend all ingredients until smooth.",
+        "2. Chill and serve cold.",
+        "3. Garnish with croutons."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 0,
+      "caloriesPerServing": 150,
+      "tags": [
+        "Soup",
+        "Cold",
+        "Spanish"
+      ],
+      "reviewCount": 180
+    },
+    {
+      "id": 51,
+      "name": "Moussaka",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLM3UNbSRYpRPH9ZgbUMiEdgftogXwS3Yvkg&s",
+      "difficulty": "Hard",
+      "rating": 4.6,
+      "cuisine": "Greek",
+      "ingredients": [
+        "Eggplant",
+        "Ground Lamb",
+        "Tomatoes",
+        "Bechamel Sauce",
+        "Potatoes"
+      ],
+      "instructions": [
+        "1. Layer eggplant and lamb.",
+        "2. Top with bechamel sauce.",
+        "3. Bake until golden."
+      ],
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 60,
+      "caloriesPerServing": 500,
+      "tags": [
+        "Baked",
+        "Lamb",
+        "Greek"
+      ],
+      "reviewCount": 200
+    },
+    {
+      "id": 52,
+      "name": "Baklava",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjrOn-fk3Lqa-dogzKdHTZdLhSNT7wG1qqmg&s",
+      "difficulty": "Medium",
+      "rating": 4.8,
+      "cuisine": "Greek",
+      "ingredients": [
+        "Phyllo Dough",
+        "Nuts",
+        "Honey",
+        "Butter",
+        "Cinnamon"
+      ],
+      "instructions": [
+        "1. Layer phyllo dough with nuts.",
+        "2. Bake until golden.",
+        "3. Drizzle with honey."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 45,
+      "caloriesPerServing": 400,
+      "tags": [
+        "Dessert",
+        "Sweet",
+        "Greek"
+      ],
+      "reviewCount": 250
+    },
+    {
+      "id": 53,
+      "name": "Shawarma",
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/05/shawarma-recipe.webp",
+      "difficulty": "Medium",
+      "rating": 4.7,
+      "cuisine": "Middle Eastern",
+      "ingredients": [
+        "Chicken",
+        "Pita Bread",
+        "Garlic Sauce",
+        "Pickles",
+        "Spices"
+      ],
+      "instructions": [
+        "1. Marinate chicken in spices.",
+        "2. Grill and slice thinly.",
+        "3. Serve in pita with garlic sauce."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 30,
+      "caloriesPerServing": 450,
+      "tags": [
+        "Street Food",
+        "Chicken",
+        "Middle Eastern"
+      ],
+      "reviewCount": 220
+    },
+    {
+      "id": 54,
+      "name": "Coq au Vin",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTj6YjD6nTi8mBtzTUl_xfF3AKWBONsPrwiA&s",
+      "difficulty": "Hard",
+      "rating": 4.7,
+      "cuisine": "French",
+      "ingredients": [
+        "Chicken",
+        "Red Wine",
+        "Bacon",
+        "Mushrooms",
+        "Onions"
+      ],
+      "instructions": [
+        "1. Sear chicken and bacon.",
+        "2. Simmer in red wine with mushrooms and onions.",
+        "3. Serve with crusty bread."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 90,
+      "caloriesPerServing": 600,
+      "tags": [
+        "Classic",
+        "French",
+        "Comfort Food"
+      ],
+      "reviewCount": 200
+    },
+    {
+      "id": 55,
+      "name": "Ratatouille",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTPQmol23atDz7d-vbBx8Pv3x1E91pmlrWQg&s",
+      "difficulty": "Medium",
+      "rating": 4.5,
+      "cuisine": "French",
+      "ingredients": [
+        "Eggplant",
+        "Zucchini",
+        "Tomatoes",
+        "Bell Peppers",
+        "Onions",
+        "Herbs"
+      ],
+      "instructions": [
+        "1. Sauté vegetables.",
+        "2. Layer in a baking dish.",
+        "3. Bake until tender."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 60,
+      "caloriesPerServing": 250,
+      "tags": [
+        "Vegetarian",
+        "Baked",
+        "French"
+      ],
+      "reviewCount": 180
+    },
+    {
+      "id": 56,
+      "name": "Ethiopian Misir Wat",
+      "image": "https://images.getrecipekit.com/20240201011635-misr_wot_horiz-0631_520x500.webp?class=16x9",
+      "difficulty": "Medium",
+      "rating": 4.7,
+      "cuisine": "Ethiopian",
+      "ingredients": [
+        "Red Lentils",
+        "Onion",
+        "Garlic",
+        "Ginger",
+        "Berbere Spice",
+        "Tomatoes",
+        "Vegetable Broth",
+        "Salt",
+        "Olive Oil",
+        "Lemon Juice"
+      ],
+      "instructions": [
+        "1. Heat olive oil in a pot and sauté onions until golden.",
+        "2. Add garlic, ginger, and berbere spice, stirring well.",
+        "3. Stir in chopped tomatoes and cook until softened.",
+        "4. Add red lentils and mix well to coat with the spices.",
+        "5. Pour in vegetable broth, bring to a simmer, and cook until lentils are tender.",
+        "6. Season with salt and finish with lemon juice before serving."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 35,
+      "caloriesPerServing": 320,
+      "tags": [
+        "Vegan",
+        "Ethiopian",
+        "Protein-Rich"
+      ],
+      "reviewCount": 210
+    },
+    {
+      "id": 57,
+      "name": "Thai Mango Sticky Rice",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLpBzOvpeQYdle3EYT57BxUfKpFJsFDcRjlw&s",
+      "difficulty": "Easy",
+      "rating": 4.8,
+      "cuisine": "Thai",
+      "ingredients": [
+        "Sticky Rice",
+        "Coconut Milk",
+        "Sugar",
+        "Salt",
+        "Ripe Mango",
+        "Sesame Seeds"
+      ],
+      "instructions": [
+        "1. Cook sticky rice until soft.",
+        "2. In a saucepan, heat coconut milk, sugar, and salt until dissolved.",
+        "3. Mix the warm coconut milk with the sticky rice and let it soak for 10 minutes.",
+        "4. Slice ripe mango and serve alongside the coconut-infused sticky rice.",
+        "5. Sprinkle with sesame seeds for garnish."
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 20,
+      "caloriesPerServing": 350,
+      "tags": [
+        "Dessert",
+        "Thai",
+        "Gluten-Free"
+      ],
+      "reviewCount": 250
+    }
+  ]
+}

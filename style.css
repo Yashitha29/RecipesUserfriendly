@@ -1,0 +1,200 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/373/952/839/wooden-spoon-condiments-background-wallpaper-preview.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+ 
+
+ 
+   .navbar {
+    background: rgba(0, 0, 0, 0.8) !important;  /* Semi-transparent dark background */
+    backdrop-filter: blur(10px);  /* Blur effect */
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease;
+  }
+  .nav-link:hover {
+    color: #ff6f61 !important; /* Vibrant hover color */
+  }
+  
+  .navbar-toggler {
+    border-color: #fff;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+   */
+  /* Home Section */
+  #home {
+    padding: 100px 0;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  #home h1 {
+    font-size: 3rem;
+    color: #333;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  #home p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Recipe Grid Section */
+  #recipes {
+    padding: 50px 0;
+  }
+  
+  .card {
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    height: 100px;
+    width: 50%;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  /* Recipe Details Section */
+  #recipeDetailsPage {
+    padding: 50px 0;
+  }
+  
+  #recipeDetails .card {
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  #recipeDetails h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  #recipeDetails h5 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  #recipeDetails ul, #recipeDetails ol {
+    padding-left: 20px;
+  }
+  
+  #recipeDetails li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #ff6f61; /* Vibrant hover color */
+  }
+  
+  /* Modal Styling */
+  .modal-content {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-header {
+    border-bottom: none;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .modal-body .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .modal-body .btn-primary {
+    background: #ff6f61;
+    border: none;
+    transition: background 0.3s ease;
+  }
+  
+  .modal-body .btn-primary:hover {
+    background: #ff4a3d;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #home h1 {
+      font-size: 2rem;
+    }
+  
+    .navbar-nav {
+      margin-top: 10px;
+    }
+  
+    .input-group {
+      margin-top: 10px;
+    }
+  }
